@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\stm32f10x_it.o"
+".\objects\system_stm32f10x.o"
+".\objects\systick.o"
+".\objects\port_a.o"
+".\objects\sio.o"
+".\objects\misc.o"
+".\objects\stm32f10x_dma.o"
+".\objects\stm32f10x_exti.o"
+".\objects\stm32f10x_gpio.o"
+".\objects\stm32f10x_pwr.o"
+".\objects\stm32f10x_rcc.o"
+".\objects\stm32f10x_sdio.o"
+".\objects\stm32f10x_tim.o"
+".\objects\stm32f10x_usart.o"
+".\objects\stm32f10x_flash.o"
+".\objects\core_cm3.o"
+".\objects\startup_stm32f10x_md.o"
+".\objects\fx1nhelper.o"
+".\objects\fx1n.o"
+".\objects\fx1nfnc.o"
+".\objects\fx1niap.o"
+".\objects\fx1nuart.o"
+--strict --scatter ".\Objects\ppiapp.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\ppiapp.map" -o .\Objects\ppiapp.axf

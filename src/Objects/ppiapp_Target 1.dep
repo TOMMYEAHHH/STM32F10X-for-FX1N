@@ -1,0 +1,543 @@
+Dependencies for Project 'ppiapp', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\src\main.c)(0x69ECE060)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\core -I .\src -I .\fwlib\inc -I .\fx1n-I.\RTE\_Target_1-IC:\Users\TOMMY\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\fx1n\fx1ntype.h)(0x56F28E92)
+I (.\src\port.h)(0x56E7F64B)
+I (src\stm32f10x.h)(0x56DED686)
+I (.\core\core_cm3.h)(0x56DED686)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (src\system_stm32f10x.h)(0x56DED686)
+I (src\stm32f10x_conf.h)(0x56DED686)
+I (.\fwlib\inc\stm32f10x_adc.h)(0x56DED685)
+I (.\src\stm32f10x.h)(0x56DED686)
+I (.\fwlib\inc\stm32f10x_bkp.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_can.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_cec.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_crc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dac.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dbgmcu.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dma.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_exti.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_flash.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_fsmc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_gpio.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_i2c.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_iwdg.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_pwr.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rcc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rtc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_sdio.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_spi.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_tim.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_usart.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_wwdg.h)(0x56DED685)
+I (.\fwlib\inc\misc.h)(0x56DED685)
+I (src\SysTick.h)(0x56DED686)
+I (.\fx1n\fx1nvar.h)(0x69EA55E8)
+I (src\sio.h)(0x56DED686)
+I (.\fx1n\fx1niap.h)(0x56F12C39)
+I (D:\keil\ARM\ARMCC\include\string.h)(0x5D9AD218)
+F (.\src\stm32f10x_it.c)(0x69EBA305)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\core -I .\src -I .\fwlib\inc -I .\fx1n-I.\RTE\_Target_1-IC:\Users\TOMMY\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_it.o --omf_browse .\objects\stm32f10x_it.crf --depend .\objects\stm32f10x_it.d)
+I (src\stm32f10x_it.h)(0x56DED686)
+I (src\stm32f10x.h)(0x56DED686)
+I (.\core\core_cm3.h)(0x56DED686)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (src\system_stm32f10x.h)(0x56DED686)
+I (src\stm32f10x_conf.h)(0x56DED686)
+I (.\fwlib\inc\stm32f10x_adc.h)(0x56DED685)
+I (.\src\stm32f10x.h)(0x56DED686)
+I (.\fwlib\inc\stm32f10x_bkp.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_can.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_cec.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_crc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dac.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dbgmcu.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dma.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_exti.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_flash.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_fsmc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_gpio.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_i2c.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_iwdg.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_pwr.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rcc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rtc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_sdio.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_spi.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_tim.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_usart.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_wwdg.h)(0x56DED685)
+I (.\fwlib\inc\misc.h)(0x56DED685)
+I (.\fx1n\fx1nvar.h)(0x69EA55E8)
+I (.\fx1n\fx1ntype.h)(0x56F28E92)
+I (.\src\port.h)(0x56E7F64B)
+F (.\src\system_stm32f10x.c)(0x56DED686)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\core -I .\src -I .\fwlib\inc -I .\fx1n-I.\RTE\_Target_1-IC:\Users\TOMMY\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (src\stm32f10x.h)(0x56DED686)
+I (.\core\core_cm3.h)(0x56DED686)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (src\system_stm32f10x.h)(0x56DED686)
+I (src\stm32f10x_conf.h)(0x56DED686)
+I (.\fwlib\inc\stm32f10x_adc.h)(0x56DED685)
+I (.\src\stm32f10x.h)(0x56DED686)
+I (.\fwlib\inc\stm32f10x_bkp.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_can.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_cec.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_crc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dac.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dbgmcu.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dma.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_exti.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_flash.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_fsmc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_gpio.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_i2c.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_iwdg.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_pwr.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rcc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rtc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_sdio.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_spi.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_tim.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_usart.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_wwdg.h)(0x56DED685)
+I (.\fwlib\inc\misc.h)(0x56DED685)
+F (.\src\SysTick.c)(0x69E38CEF)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\core -I .\src -I .\fwlib\inc -I .\fx1n-I.\RTE\_Target_1-IC:\Users\TOMMY\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
+I (.\fwlib\inc\stm32f10x_gpio.h)(0x56DED685)
+I (.\src\stm32f10x.h)(0x56DED686)
+I (.\core\core_cm3.h)(0x56DED686)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\src\system_stm32f10x.h)(0x56DED686)
+I (.\src\stm32f10x_conf.h)(0x56DED686)
+I (.\fwlib\inc\stm32f10x_adc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_bkp.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_can.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_cec.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_crc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dac.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dbgmcu.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dma.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_exti.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_flash.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_fsmc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_i2c.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_iwdg.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_pwr.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rcc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rtc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_sdio.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_spi.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_tim.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_usart.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_wwdg.h)(0x56DED685)
+I (.\fwlib\inc\misc.h)(0x56DED685)
+I (src\SysTick.h)(0x56DED686)
+F (.\src\port_a.asm)(0x56DED686)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\TOMMY\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 529" --pd "STM32F10X_MD SETA 1"--list .\listings\port_a.lst --xref -o .\objects\port_a.o --depend .\objects\port_a.d)
+F (.\src\sio.c)(0x56DED686)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\core -I .\src -I .\fwlib\inc -I .\fx1n-I.\RTE\_Target_1-IC:\Users\TOMMY\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\sio.o --omf_browse .\objects\sio.crf --depend .\objects\sio.d)
+I (src\stm32f10x.h)(0x56DED686)
+I (.\core\core_cm3.h)(0x56DED686)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (src\system_stm32f10x.h)(0x56DED686)
+I (src\stm32f10x_conf.h)(0x56DED686)
+I (.\fwlib\inc\stm32f10x_adc.h)(0x56DED685)
+I (.\src\stm32f10x.h)(0x56DED686)
+I (.\fwlib\inc\stm32f10x_bkp.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_can.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_cec.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_crc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dac.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dbgmcu.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dma.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_exti.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_flash.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_fsmc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_gpio.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_i2c.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_iwdg.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_pwr.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rcc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rtc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_sdio.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_spi.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_tim.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_usart.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_wwdg.h)(0x56DED685)
+I (.\fwlib\inc\misc.h)(0x56DED685)
+I (src\sio.h)(0x56DED686)
+I (src\port.h)(0x56E7F64B)
+F (.\fwlib\src\misc.c)(0x56DED685)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\core -I .\src -I .\fwlib\inc -I .\fx1n-I.\RTE\_Target_1-IC:\Users\TOMMY\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (.\fwlib\inc\misc.h)(0x56DED685)
+I (.\src\stm32f10x.h)(0x56DED686)
+I (.\core\core_cm3.h)(0x56DED686)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\src\system_stm32f10x.h)(0x56DED686)
+I (.\src\stm32f10x_conf.h)(0x56DED686)
+I (.\fwlib\inc\stm32f10x_adc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_bkp.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_can.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_cec.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_crc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dac.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dbgmcu.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dma.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_exti.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_flash.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_fsmc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_gpio.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_i2c.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_iwdg.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_pwr.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rcc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rtc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_sdio.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_spi.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_tim.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_usart.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_wwdg.h)(0x56DED685)
+F (.\fwlib\src\stm32f10x_dma.c)(0x56DED685)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\core -I .\src -I .\fwlib\inc -I .\fx1n-I.\RTE\_Target_1-IC:\Users\TOMMY\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_dma.o --omf_browse .\objects\stm32f10x_dma.crf --depend .\objects\stm32f10x_dma.d)
+I (.\fwlib\inc\stm32f10x_dma.h)(0x56DED685)
+I (.\src\stm32f10x.h)(0x56DED686)
+I (.\core\core_cm3.h)(0x56DED686)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\src\system_stm32f10x.h)(0x56DED686)
+I (.\src\stm32f10x_conf.h)(0x56DED686)
+I (.\fwlib\inc\stm32f10x_adc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_bkp.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_can.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_cec.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_crc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dac.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dbgmcu.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_exti.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_flash.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_fsmc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_gpio.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_i2c.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_iwdg.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_pwr.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rcc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rtc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_sdio.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_spi.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_tim.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_usart.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_wwdg.h)(0x56DED685)
+I (.\fwlib\inc\misc.h)(0x56DED685)
+F (.\fwlib\src\stm32f10x_exti.c)(0x56DED685)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\core -I .\src -I .\fwlib\inc -I .\fx1n-I.\RTE\_Target_1-IC:\Users\TOMMY\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_exti.o --omf_browse .\objects\stm32f10x_exti.crf --depend .\objects\stm32f10x_exti.d)
+I (.\fwlib\inc\stm32f10x_exti.h)(0x56DED685)
+I (.\src\stm32f10x.h)(0x56DED686)
+I (.\core\core_cm3.h)(0x56DED686)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\src\system_stm32f10x.h)(0x56DED686)
+I (.\src\stm32f10x_conf.h)(0x56DED686)
+I (.\fwlib\inc\stm32f10x_adc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_bkp.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_can.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_cec.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_crc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dac.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dbgmcu.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dma.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_flash.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_fsmc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_gpio.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_i2c.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_iwdg.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_pwr.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rcc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rtc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_sdio.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_spi.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_tim.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_usart.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_wwdg.h)(0x56DED685)
+I (.\fwlib\inc\misc.h)(0x56DED685)
+F (.\fwlib\src\stm32f10x_gpio.c)(0x56DED685)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\core -I .\src -I .\fwlib\inc -I .\fx1n-I.\RTE\_Target_1-IC:\Users\TOMMY\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
+I (.\fwlib\inc\stm32f10x_gpio.h)(0x56DED685)
+I (.\src\stm32f10x.h)(0x56DED686)
+I (.\core\core_cm3.h)(0x56DED686)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\src\system_stm32f10x.h)(0x56DED686)
+I (.\src\stm32f10x_conf.h)(0x56DED686)
+I (.\fwlib\inc\stm32f10x_adc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_bkp.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_can.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_cec.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_crc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dac.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dbgmcu.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dma.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_exti.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_flash.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_fsmc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_i2c.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_iwdg.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_pwr.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rcc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rtc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_sdio.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_spi.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_tim.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_usart.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_wwdg.h)(0x56DED685)
+I (.\fwlib\inc\misc.h)(0x56DED685)
+F (.\fwlib\src\stm32f10x_pwr.c)(0x56DED685)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\core -I .\src -I .\fwlib\inc -I .\fx1n-I.\RTE\_Target_1-IC:\Users\TOMMY\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_pwr.o --omf_browse .\objects\stm32f10x_pwr.crf --depend .\objects\stm32f10x_pwr.d)
+I (.\fwlib\inc\stm32f10x_pwr.h)(0x56DED685)
+I (.\src\stm32f10x.h)(0x56DED686)
+I (.\core\core_cm3.h)(0x56DED686)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\src\system_stm32f10x.h)(0x56DED686)
+I (.\src\stm32f10x_conf.h)(0x56DED686)
+I (.\fwlib\inc\stm32f10x_adc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_bkp.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_can.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_cec.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_crc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dac.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dbgmcu.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dma.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_exti.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_flash.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_fsmc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_gpio.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_i2c.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_iwdg.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rcc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rtc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_sdio.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_spi.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_tim.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_usart.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_wwdg.h)(0x56DED685)
+I (.\fwlib\inc\misc.h)(0x56DED685)
+F (.\fwlib\src\stm32f10x_rcc.c)(0x56DED685)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\core -I .\src -I .\fwlib\inc -I .\fx1n-I.\RTE\_Target_1-IC:\Users\TOMMY\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
+I (.\fwlib\inc\stm32f10x_rcc.h)(0x56DED685)
+I (.\src\stm32f10x.h)(0x56DED686)
+I (.\core\core_cm3.h)(0x56DED686)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\src\system_stm32f10x.h)(0x56DED686)
+I (.\src\stm32f10x_conf.h)(0x56DED686)
+I (.\fwlib\inc\stm32f10x_adc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_bkp.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_can.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_cec.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_crc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dac.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dbgmcu.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dma.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_exti.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_flash.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_fsmc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_gpio.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_i2c.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_iwdg.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_pwr.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rtc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_sdio.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_spi.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_tim.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_usart.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_wwdg.h)(0x56DED685)
+I (.\fwlib\inc\misc.h)(0x56DED685)
+F (.\fwlib\src\stm32f10x_sdio.c)(0x56DED685)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\core -I .\src -I .\fwlib\inc -I .\fx1n-I.\RTE\_Target_1-IC:\Users\TOMMY\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_sdio.o --omf_browse .\objects\stm32f10x_sdio.crf --depend .\objects\stm32f10x_sdio.d)
+I (.\fwlib\inc\stm32f10x_sdio.h)(0x56DED685)
+I (.\src\stm32f10x.h)(0x56DED686)
+I (.\core\core_cm3.h)(0x56DED686)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\src\system_stm32f10x.h)(0x56DED686)
+I (.\src\stm32f10x_conf.h)(0x56DED686)
+I (.\fwlib\inc\stm32f10x_adc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_bkp.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_can.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_cec.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_crc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dac.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dbgmcu.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dma.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_exti.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_flash.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_fsmc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_gpio.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_i2c.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_iwdg.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_pwr.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rcc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rtc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_spi.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_tim.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_usart.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_wwdg.h)(0x56DED685)
+I (.\fwlib\inc\misc.h)(0x56DED685)
+F (.\fwlib\src\stm32f10x_tim.c)(0x56DED685)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\core -I .\src -I .\fwlib\inc -I .\fx1n-I.\RTE\_Target_1-IC:\Users\TOMMY\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_tim.o --omf_browse .\objects\stm32f10x_tim.crf --depend .\objects\stm32f10x_tim.d)
+I (.\fwlib\inc\stm32f10x_tim.h)(0x56DED685)
+I (.\src\stm32f10x.h)(0x56DED686)
+I (.\core\core_cm3.h)(0x56DED686)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\src\system_stm32f10x.h)(0x56DED686)
+I (.\src\stm32f10x_conf.h)(0x56DED686)
+I (.\fwlib\inc\stm32f10x_adc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_bkp.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_can.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_cec.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_crc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dac.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dbgmcu.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dma.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_exti.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_flash.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_fsmc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_gpio.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_i2c.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_iwdg.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_pwr.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rcc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rtc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_sdio.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_spi.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_usart.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_wwdg.h)(0x56DED685)
+I (.\fwlib\inc\misc.h)(0x56DED685)
+F (.\fwlib\src\stm32f10x_usart.c)(0x56DED685)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\core -I .\src -I .\fwlib\inc -I .\fx1n-I.\RTE\_Target_1-IC:\Users\TOMMY\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_usart.o --omf_browse .\objects\stm32f10x_usart.crf --depend .\objects\stm32f10x_usart.d)
+I (.\fwlib\inc\stm32f10x_usart.h)(0x56DED685)
+I (.\src\stm32f10x.h)(0x56DED686)
+I (.\core\core_cm3.h)(0x56DED686)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\src\system_stm32f10x.h)(0x56DED686)
+I (.\src\stm32f10x_conf.h)(0x56DED686)
+I (.\fwlib\inc\stm32f10x_adc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_bkp.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_can.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_cec.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_crc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dac.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dbgmcu.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dma.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_exti.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_flash.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_fsmc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_gpio.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_i2c.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_iwdg.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_pwr.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rcc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rtc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_sdio.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_spi.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_tim.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_wwdg.h)(0x56DED685)
+I (.\fwlib\inc\misc.h)(0x56DED685)
+F (.\fwlib\src\stm32f10x_flash.c)(0x56DED685)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\core -I .\src -I .\fwlib\inc -I .\fx1n-I.\RTE\_Target_1-IC:\Users\TOMMY\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_flash.o --omf_browse .\objects\stm32f10x_flash.crf --depend .\objects\stm32f10x_flash.d)
+I (.\fwlib\inc\stm32f10x_flash.h)(0x56DED685)
+I (.\src\stm32f10x.h)(0x56DED686)
+I (.\core\core_cm3.h)(0x56DED686)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\src\system_stm32f10x.h)(0x56DED686)
+I (.\src\stm32f10x_conf.h)(0x56DED686)
+I (.\fwlib\inc\stm32f10x_adc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_bkp.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_can.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_cec.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_crc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dac.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dbgmcu.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dma.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_exti.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_fsmc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_gpio.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_i2c.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_iwdg.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_pwr.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rcc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rtc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_sdio.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_spi.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_tim.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_usart.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_wwdg.h)(0x56DED685)
+I (.\fwlib\inc\misc.h)(0x56DED685)
+F (.\core\core_cm3.c)(0x56DED686)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\core -I .\src -I .\fwlib\inc -I .\fx1n-I.\RTE\_Target_1-IC:\Users\TOMMY\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+F (.\core\startup_stm32f10x_md.s)(0x56E3EE70)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\TOMMY\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 529" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
+F (.\fx1n\fx1nhelper.c)(0x56ED05ED)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\core -I .\src -I .\fwlib\inc -I .\fx1n-I.\RTE\_Target_1-IC:\Users\TOMMY\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\fx1nhelper.o --omf_browse .\objects\fx1nhelper.crf --depend .\objects\fx1nhelper.d)
+I (fx1n\fx1nhelper.h)(0x56ED042B)
+I (fx1n\fx1ntype.h)(0x56F28E92)
+I (.\src\port.h)(0x56E7F64B)
+F (.\fx1n\FX1N.c)(0x69EBA305)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\core -I .\src -I .\fwlib\inc -I .\fx1n-I.\RTE\_Target_1-IC:\Users\TOMMY\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\fx1n.o --omf_browse .\objects\fx1n.crf --depend .\objects\fx1n.d)
+I (fx1n\fx1ntype.h)(0x56F28E92)
+I (.\src\port.h)(0x56E7F64B)
+I (fx1n\fx1nuart.h)(0x56F3EAC3)
+I (fx1n\fx1nhelper.h)(0x56ED042B)
+I (fx1n\fx1niap.h)(0x56F12C39)
+I (fx1n\fx1nvar.h)(0x69EA55E8)
+F (.\fx1n\fx1nfnc.c)(0x69E4FDF9)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\core -I .\src -I .\fwlib\inc -I .\fx1n-I.\RTE\_Target_1-IC:\Users\TOMMY\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\fx1nfnc.o --omf_browse .\objects\fx1nfnc.crf --depend .\objects\fx1nfnc.d)
+I (fx1n\fx1ntype.h)(0x56F28E92)
+I (.\src\port.h)(0x56E7F64B)
+I (fx1n\fx1nuart.h)(0x56F3EAC3)
+I (fx1n\fx1nvar.h)(0x69EA55E8)
+F (.\fx1n\fx1niap.c)(0x56F3F12D)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\core -I .\src -I .\fwlib\inc -I .\fx1n-I.\RTE\_Target_1-IC:\Users\TOMMY\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\fx1niap.o --omf_browse .\objects\fx1niap.crf --depend .\objects\fx1niap.d)
+I (fx1n\fx1niap.h)(0x56F12C39)
+I (fx1n\fx1ntype.h)(0x56F28E92)
+I (.\src\port.h)(0x56E7F64B)
+I (fx1n\fx1nuart.h)(0x56F3EAC3)
+I (.\fwlib\inc\stm32f10x_flash.h)(0x56DED685)
+I (.\src\stm32f10x.h)(0x56DED686)
+I (.\core\core_cm3.h)(0x56DED686)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\src\system_stm32f10x.h)(0x56DED686)
+I (.\src\stm32f10x_conf.h)(0x56DED686)
+I (.\fwlib\inc\stm32f10x_adc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_bkp.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_can.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_cec.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_crc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dac.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dbgmcu.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dma.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_exti.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_fsmc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_gpio.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_i2c.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_iwdg.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_pwr.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rcc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rtc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_sdio.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_spi.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_tim.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_usart.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_wwdg.h)(0x56DED685)
+I (.\fwlib\inc\misc.h)(0x56DED685)
+F (.\fx1n\fx1nuart.c)(0x69EB8F50)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\core -I .\src -I .\fwlib\inc -I .\fx1n-I.\RTE\_Target_1-IC:\Users\TOMMY\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\keil\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\fx1nuart.o --omf_browse .\objects\fx1nuart.crf --depend .\objects\fx1nuart.d)
+I (fx1n\fx1ntype.h)(0x56F28E92)
+I (.\src\port.h)(0x56E7F64B)
+I (fx1n\fx1nuart.h)(0x56F3EAC3)
+I (fx1n\fx1nhelper.h)(0x56ED042B)
+I (fx1n\fx1niap.h)(0x56F12C39)
+I (fx1n\fx1nvar.h)(0x69EA55E8)
+I (.\fwlib\inc\stm32f10x_flash.h)(0x56DED685)
+I (.\src\stm32f10x.h)(0x56DED686)
+I (.\core\core_cm3.h)(0x56DED686)
+I (D:\keil\ARM\ARMCC\include\stdint.h)(0x5D9AD218)
+I (.\src\system_stm32f10x.h)(0x56DED686)
+I (.\src\stm32f10x_conf.h)(0x56DED686)
+I (.\fwlib\inc\stm32f10x_adc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_bkp.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_can.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_cec.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_crc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dac.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dbgmcu.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_dma.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_exti.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_fsmc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_gpio.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_i2c.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_iwdg.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_pwr.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rcc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_rtc.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_sdio.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_spi.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_tim.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_usart.h)(0x56DED685)
+I (.\fwlib\inc\stm32f10x_wwdg.h)(0x56DED685)
+I (.\fwlib\inc\misc.h)(0x56DED685)

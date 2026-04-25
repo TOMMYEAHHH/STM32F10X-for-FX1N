@@ -1,0 +1,97 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         
+    2 00000000                 EXPORT           OS_CPU_SR_Save ; Functions decl
+                                                            ared in this file
+    3 00000000                 EXPORT           OS_CPU_SR_Restore
+    4 00000000         
+    5 00000000         ;*******************************************************
+                       *************************************************
+    6 00000000         ;                                                EQUATES
+                       
+    7 00000000         ;*******************************************************
+                       *************************************************
+    8 00000000         
+    9 00000000         ;NVIC_INT_CTRL   EQU     0xE000ED04                     
+                                ; Interrupt control state register.
+   10 00000000         ;NVIC_SYSPRI14   EQU     0xE000ED22                     
+                                ; System priority register (priority 14).
+   11 00000000         ;NVIC_PENDSV_PRI EQU           0xFF                     
+                                ; PendSV priority value (lowest).
+   12 00000000         ;NVIC_PENDSVSET  EQU     0x10000000                     
+                                ; Value to trigger PendSV exception.
+   13 00000000         
+   14 00000000         ;*******************************************************
+                       *************************************************
+   15 00000000         ;                                      CODE GENERATION D
+                       IRECTIVES
+   16 00000000         ;*******************************************************
+                       *************************************************
+   17 00000000         
+   18 00000000         ;        RSEG CODE:CODE:NOROOT(2)
+   19 00000000                 AREA             |.text|, CODE, READONLY, ALIGN=
+2 
+                                                            ;AREA |.text| ѡձ�
+                                                            � |.text|c
+   20 00000000         ;CODEҭʾպë׎ìREADONLYҭʾֻׁèȱʡé
+   21 00000000         ;ALIGN=2ҭʾ4ؖޚהǫcɴALIGN=nì֢2^nהǫ
+   22 00000000                 THUMB                        ;Thumb պë
+   23 00000000                 REQUIRE8                     ;ָ֨ձǰτݾҪȳב
+                                                            ջыؖޚהǫ
+   24 00000000                 PRESERVE8                    ;®ָ֨ձǰτݾѣԖ
+                                                            בջыؖޚהǫ
+   25 00000000         
+   26 00000000         
+   27 00000000         OS_CPU_SR_Save
+   28 00000000 F3EF 8010       MRS              R0, PRIMASK ; Set prio int mask
+                                                             to mask all (excep
+                                                            t faults)
+   29 00000004 B672            CPSID            I
+   30 00000006 4770            BX               LR
+   31 00000008         
+   32 00000008         OS_CPU_SR_Restore
+   33 00000008 F380 8810       MSR              PRIMASK, R0
+   34 0000000C 4770            BX               LR
+   35 0000000E         
+   36 0000000E                 END
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
+ork --depend=.\objects\port_a.d -o.\objects\port_a.o -I.\RTE\_Target_1 -IC:\Use
+rs\TOMMY\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include -ID:\k
+eil\ARM\CMSIS\Include --predefine="__UVISION_VERSION SETA 529" --predefine="STM
+32F10X_MD SETA 1" --list=.\listings\port_a.lst src\port_a.asm
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+.text 00000000
+
+Symbol: .text
+   Definitions
+      At line 19 in file src\port_a.asm
+   Uses
+      None
+Comment: .text unused
+OS_CPU_SR_Restore 00000008
+
+Symbol: OS_CPU_SR_Restore
+   Definitions
+      At line 32 in file src\port_a.asm
+   Uses
+      At line 3 in file src\port_a.asm
+Comment: OS_CPU_SR_Restore used once
+OS_CPU_SR_Save 00000000
+
+Symbol: OS_CPU_SR_Save
+   Definitions
+      At line 27 in file src\port_a.asm
+   Uses
+      At line 2 in file src\port_a.asm
+Comment: OS_CPU_SR_Save used once
+3 symbols
+335 symbols in table
