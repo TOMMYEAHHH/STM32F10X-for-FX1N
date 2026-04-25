@@ -1,4 +1,4 @@
-# STM32-PLC-Emulator (Mitsubishi FX Series Compatible)
+# STM32-PLC-Emulator ( FX Series Compatible)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Platform: STM32F10X](https://img.shields.io/badge/Platform-STM32F10X-blue.svg)](https://www.st.com/en/microcontrollers-microprocessors/stm32f1-series.html)
@@ -11,7 +11,7 @@
 ## 中文介绍
 
 ### 🚀 项目简介
-本项目是一个基于 **STM32F10X** 系列单片机开发的工业级 PLC 模拟系统。它深度兼容 **三菱 (Mitsubishi) FX 系列协议**，允许用户直接使用原厂编程软件（如 GX Works2/GX Developer）进行梯形图编写、下载及在线调试。
+本项目是一个基于 **STM32F10X** 系列单片机开发的 PLC 模拟系统。它深度兼容 ** FX 系列协议**，允许用户直接使用梯形图编程软件进行梯形图编写、下载及在线调试。
 
 ### 🛠️ 硬件及资源要求
 为保证系统稳定运行及梯形图逻辑的流畅执行，硬件需满足以下最低要求：
@@ -36,7 +36,7 @@
 ## English Version
 
 ### 🚀 Overview
-This project is an industrial-grade PLC emulation system developed on the **STM32F10X** platform, fully compatible with the **Mitsubishi FX Series protocol**.
+This project is an  PLC emulation system developed on the **STM32F10X** platform, fully compatible with the ** FX Series protocol**.
 
 ### 🛠️ Hardware & Resource Requirements
 To ensure stable execution of ladder logic, the following minimum specifications are required:
