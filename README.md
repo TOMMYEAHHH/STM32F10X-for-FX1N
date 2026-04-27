@@ -30,6 +30,14 @@
 * **移植建議**：如果換成大容量晶片（如 F103VET6，一頁是 2KB），擦除地址偏移量必須重寫，否則會擦除掉不該擦除的區域。
 * **首次使用**：烧录程序后，请先执行一次plc擦除.
 
+ ### 可用原件
+ X:48 Y:48 M:256  S:256 T:32  C:128  M8xxx:24  D:128
+
+
+
+
+
+
 ---
 
 <a name="english-version"></a>
@@ -54,3 +62,6 @@ To ensure stable execution of ladder logic, the following minimum specifications
 * **Known Issues**: The English localized version is still under development. You may encounter encoding issues (mojibake) in certain environments. Full internationalization (i18n) and encoding fixes are planned for future updates.
 * **Porting Recommendation:** If switching to a high-capacity chip (such as F103VET6, where one page is 2KB), the erase address offset must be rewritten; otherwise, areas that should not be erased will be erased.
 * **First-time to use:** After writing in  the hex program, please perform a PLC erase  first.
+
+ ### Components available
+ X:48 Y:48 M:256  S:256 T:32  C:128  M8xxx:24  D:128
