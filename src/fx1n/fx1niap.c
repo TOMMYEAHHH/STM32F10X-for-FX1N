@@ -91,7 +91,7 @@ static void iap_write_page_check(u32t page) {
 }
 static u32t index;
 static u32t _fsm;
-void iap_comit_(page) {
+void iap_comit_(uint32_t page) {
     //int cpu_sr;
     //OS_ENTER_CRITICAL();
     FLASH_Unlock();

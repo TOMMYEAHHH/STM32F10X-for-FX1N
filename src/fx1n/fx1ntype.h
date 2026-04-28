@@ -1,6 +1,6 @@
 #ifndef _SYSTYPE_H
 #define _SYSTYPE_H
-#include "port.h"
+#include "Port.h"
 /*
 #define  u8t   unsigned char
 #define  u16t  unsigned short
