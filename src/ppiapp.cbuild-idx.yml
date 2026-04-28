@@ -10,9 +10,7 @@ build-idx:
       project: ppiapp
       configuration: +Target_1
       messages:
-        warnings:
-          - file '/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/.cmsis/ppiapp+Target_1.dbgconf' not found; use --update-rte
         info:
-          - ppiapp.cbuild-pack.yml - file generated successfully
+          - ppiapp.cbuild-pack.yml - file is already up-to-date
           - ppiapp+Target_1.cbuild-run.yml - file generated successfully
           - ppiapp+Target_1.cbuild.yml - file generated successfully

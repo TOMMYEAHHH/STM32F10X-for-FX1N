@@ -16,7 +16,6 @@ build:
   dbgconf:
     - file: ../../../.cmsis/ppiapp+Target_1.dbgconf
       version: 1.0.0
-      status: missing file
   processor:
     endian: little
     fpu: off
@@ -101,8 +100,12 @@ build:
     outdir: .
     rtedir: ../../../RTE
   output:
+    - type: bin
+      file: ppiapp.bin
     - type: elf
       file: ppiapp.axf
+    - type: hex
+      file: ppiapp.hex
     - type: comp-db
       file: compile_commands.json
   linker:

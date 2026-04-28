@@ -1,4 +1,9 @@
 project:
+  output:
+    type:
+      - elf
+      - hex
+      - bin
   packs:
     - pack: Keil::STM32F1xx_DFP@^2.4.1
   setups:

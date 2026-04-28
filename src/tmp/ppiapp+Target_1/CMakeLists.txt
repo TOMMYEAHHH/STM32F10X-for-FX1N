@@ -10,6 +10,8 @@ set(DPACK Keil::STM32F1xx_DFP@2.4.1)
 set(DPACK_DIR "${CMSIS_PACK_ROOT}/Keil/STM32F1xx_DFP/2.4.1")
 set(OUT_DIR "${SOLUTION_ROOT}/out/ppiapp/Target_1")
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(BIN_FILE "ppiapp.bin")
+set(HEX_FILE "ppiapp.hex")
 set(LD_SCRIPT "${SOLUTION_ROOT}/ppiapp_Target_1.sct")
 set(LD_SCRIPT_PP ${LD_SCRIPT})
 
@@ -137,3 +139,9 @@ target_link_options(${CONTEXT} PUBLIC
 )
 set(LD_DEPS ${LD_SCRIPT})
 set_target_properties(${CONTEXT} PROPERTIES LINK_DEPENDS "${LD_DEPS}")
+
+# Bin Conversion
+add_custom_command(TARGET ${CONTEXT} POST_BUILD COMMAND ${CMAKE_OBJCOPY} ${ELF2BIN})
+
+# Hex Conversion
+add_custom_command(TARGET ${CONTEXT} POST_BUILD COMMAND ${CMAKE_OBJCOPY} ${ELF2HEX})

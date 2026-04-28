@@ -25,7 +25,9 @@ set(DIRS
 )
 
 set(OUTPUTS_1
+  "${SOLUTION_ROOT}/out/ppiapp/Target_1/ppiapp.bin"
   "${SOLUTION_ROOT}/out/ppiapp/Target_1/ppiapp.axf"
+  "${SOLUTION_ROOT}/out/ppiapp/Target_1/ppiapp.hex"
   "${SOLUTION_ROOT}/out/ppiapp/Target_1/compile_commands.json"
 )
 

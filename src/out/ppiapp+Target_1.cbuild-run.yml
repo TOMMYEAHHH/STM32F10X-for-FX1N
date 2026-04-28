@@ -10,7 +10,15 @@ cbuild-run:
     - file: ppiapp/Target_1/ppiapp.axf
       info: generate by ppiapp+Target_1
       type: elf
-      load: image+symbols
+      load: symbols
+    - file: ppiapp/Target_1/ppiapp.hex
+      info: generate by ppiapp+Target_1
+      type: hex
+      load: image
+    - file: ppiapp/Target_1/ppiapp.bin
+      info: generate by ppiapp+Target_1
+      type: bin
+      load: none
   system-resources:
     memory:
       - name: IROM1
