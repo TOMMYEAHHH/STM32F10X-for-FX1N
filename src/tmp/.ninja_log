@@ -1,0 +1,13 @@
+# ninja log v7
+0	14	1777368209431328807	ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-mkdir	e3481aca8fc92284
+0	14	1777368209431328807	/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-mkdir	e3481aca8fc92284
+14	26	1777368209443145668	ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-download	39185d5b987e768a
+14	26	1777368209443145668	/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-download	39185d5b987e768a
+26	39	1777368209456598169	ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-update	40844c5174ad32c
+26	39	1777368209456598169	/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-update	40844c5174ad32c
+39	51	1777368209468550531	ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-patch	b82517e2726eaa8a
+39	51	1777368209468550531	/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-patch	b82517e2726eaa8a
+51	1003	1777368210420595406	ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-configure	17a64917ebf19de0
+51	1003	1777368210420595406	/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-configure	17a64917ebf19de0
+1003	1036	1777368210421122994	ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-database	36ab1eda2a7d394d
+1003	1036	1777368210421122994	/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-database	36ab1eda2a7d394d

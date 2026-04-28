@@ -1,0 +1,37 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/CMakeFiles/ppiapp+Target_1-build"
+		},
+		{
+			"file" : "/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/CMakeFiles/ppiapp+Target_1-build.rule"
+		},
+		{
+			"file" : "/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-build.rule"
+		},
+		{
+			"file" : "/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-configure.rule"
+		},
+		{
+			"file" : "/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-patch.rule"
+		},
+		{
+			"file" : "/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-update.rule"
+		},
+		{
+			"file" : "/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-download.rule"
+		},
+		{
+			"file" : "/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ppiapp+Target_1"
+		],
+		"name" : "ppiapp+Target_1-build"
+	}
+}

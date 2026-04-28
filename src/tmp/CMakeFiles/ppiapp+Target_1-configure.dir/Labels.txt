@@ -1,0 +1,10 @@
+# Target labels
+ ppiapp+Target_1
+# Source files and their labels
+/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/CMakeFiles/ppiapp+Target_1-configure
+/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/CMakeFiles/ppiapp+Target_1-configure.rule
+/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-configure.rule
+/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-patch.rule
+/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-update.rule
+/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-download.rule
+/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-mkdir.rule

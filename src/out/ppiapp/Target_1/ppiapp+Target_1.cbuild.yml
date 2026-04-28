@@ -1,0 +1,168 @@
+build:
+  generated-by: csolution version 2.13.0+p3-g40b6564e
+  solution: ../../../ppiapp.csolution.yml
+  project: ../../../ppiapp.cproject.yml
+  context: ppiapp+Target_1
+  compiler: AC6
+  device: STMicroelectronics::STM32F103C8
+  device-pack: Keil::STM32F1xx_DFP@2.4.1
+  device-books:
+    - name: ${CMSIS_PACK_ROOT}/Keil/STM32F1xx_DFP/2.4.1/Documents/CD00161566.pdf
+      title: STM32F103x8 STM32F103xB Data Sheet
+    - name: ${CMSIS_PACK_ROOT}/Keil/STM32F1xx_DFP/2.4.1/Documents/CD00171190.pdf
+      title: STM32F101xx, STM32F102xx, STM32F103xx, STM32F105xx, STM32F107xx Reference Manual
+    - name: ${CMSIS_PACK_ROOT}/Keil/STM32F1xx_DFP/2.4.1/Documents/dui0552a_cortex_m3_dgug.pdf
+      title: Cortex-M3 Generic User Guide
+  dbgconf:
+    - file: ../../../.cmsis/ppiapp+Target_1.dbgconf
+      version: 1.0.0
+      status: missing file
+  processor:
+    endian: little
+    fpu: off
+    core: Cortex-M3
+  packs:
+    - pack: Keil::STM32F1xx_DFP@2.4.1
+      path: ${CMSIS_PACK_ROOT}/Keil/STM32F1xx_DFP/2.4.1
+  optimize: debug
+  debug: on
+  misc:
+    ASM:
+      - -masm=auto
+    C:
+      - -std=c99
+      - -fno-rtti
+      - -funsigned-char
+      - -fshort-enums
+      - -fshort-wchar
+      - -ffunction-sections
+      - -Wno-packed
+      - -Wno-missing-variable-declarations
+      - -Wno-missing-prototypes
+      - -Wno-missing-noreturn
+      - -Wno-sign-conversion
+      - -Wno-nonportable-include-path
+      - -Wno-reserved-id-macro
+      - -Wno-unused-macros
+      - -Wno-documentation-unknown-command
+      - -Wno-documentation
+      - -Wno-license-management
+      - -Wno-parentheses-equality
+    CPP:
+      - -xc++
+      - -std=c++11
+      - -fno-exceptions
+      - -fno-rtti
+      - -funsigned-char
+      - -fshort-enums
+      - -fshort-wchar
+      - -ffunction-sections
+      - -Wno-packed
+      - -Wno-missing-variable-declarations
+      - -Wno-missing-prototypes
+      - -Wno-missing-noreturn
+      - -Wno-sign-conversion
+      - -Wno-nonportable-include-path
+      - -Wno-reserved-id-macro
+      - -Wno-unused-macros
+      - -Wno-documentation-unknown-command
+      - -Wno-documentation
+      - -Wno-license-management
+      - -Wno-parentheses-equality
+    Link:
+      - --map
+      - --load_addr_map_info
+      - --xref
+      - --callgraph
+      - --symbols
+      - --info sizes
+      - --info totals
+      - --info unused
+      - --info veneers
+      - --strict
+      - --summary_stderr
+      - --info summarysizes
+  define:
+    - STM32F10X_MD
+    - USE_STDPERIPH_DRIVER
+    - STM32F10X_MD
+  define-asm:
+    - STM32F10X_MD
+  add-path:
+    - ../../../core
+    - ../../../src
+    - ../../../fwlib/inc
+    - ../../../fx1n
+    - ${CMSIS_PACK_ROOT}/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+  add-path-asm:
+    - ${CMSIS_PACK_ROOT}/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+  output-dirs:
+    intdir: ../../../tmp
+    outdir: .
+    rtedir: ../../../RTE
+  output:
+    - type: elf
+      file: ppiapp.axf
+    - type: comp-db
+      file: compile_commands.json
+  linker:
+    script: ../../../ppiapp_Target_1.sct
+  groups:
+    - group: src
+      files:
+        - file: ../../../src/main.c
+          category: sourceC
+        - file: ../../../src/stm32f10x_it.c
+          category: sourceC
+        - file: ../../../src/system_stm32f10x.c
+          category: sourceC
+        - file: ../../../src/SysTick.c
+          category: sourceC
+        - file: ../../../src/port_a.asm
+          category: sourceAsm
+        - file: ../../../src/sio.c
+          category: sourceC
+    - group: fwlib
+      files:
+        - file: ../../../fwlib/src/misc.c
+          category: sourceC
+        - file: ../../../fwlib/src/stm32f10x_dma.c
+          category: sourceC
+        - file: ../../../fwlib/src/stm32f10x_exti.c
+          category: sourceC
+        - file: ../../../fwlib/src/stm32f10x_gpio.c
+          category: sourceC
+        - file: ../../../fwlib/src/stm32f10x_pwr.c
+          category: sourceC
+        - file: ../../../fwlib/src/stm32f10x_rcc.c
+          category: sourceC
+        - file: ../../../fwlib/src/stm32f10x_sdio.c
+          category: sourceC
+        - file: ../../../fwlib/src/stm32f10x_tim.c
+          category: sourceC
+        - file: ../../../fwlib/src/stm32f10x_usart.c
+          category: sourceC
+        - file: ../../../fwlib/src/stm32f10x_flash.c
+          category: sourceC
+    - group: core
+      files:
+        - file: ../../../core/core_cm3.c
+          category: sourceC
+        - file: ../../../core/startup_stm32f10x_md.s
+          category: sourceAsm
+    - group: fx1n
+      files:
+        - file: ../../../fx1n/fx1nhelper.c
+          category: sourceC
+        - file: ../../../fx1n/fx1n.c
+          category: sourceC
+        - file: ../../../fx1n/fx1nfnc.c
+          category: sourceC
+        - file: ../../../fx1n/fx1niap.c
+          category: sourceC
+        - file: ../../../fx1n/fx1nuart.c
+          category: sourceC
+  licenses:
+    - license: <unknown>
+      packs:
+        - pack: Keil::STM32F1xx_DFP@2.4.1

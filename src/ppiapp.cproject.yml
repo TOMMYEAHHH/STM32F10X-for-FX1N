@@ -1,0 +1,88 @@
+project:
+  packs:
+    - pack: Keil::STM32F1xx_DFP@^2.4.1
+  setups:
+    - setup: Options for Target_1
+      add-path:
+        - core
+        - src
+        - fwlib/inc
+        - fx1n
+      debug: "on"
+      define:
+        - STM32F10X_MD
+        - USE_STDPERIPH_DRIVER
+      misc:
+        - C:
+            - -std=c99
+          C-CPP:
+            - -fno-rtti
+            - -funsigned-char
+            - -fshort-enums
+            - -fshort-wchar
+            - -ffunction-sections
+            - -Wno-packed
+            - -Wno-missing-variable-declarations
+            - -Wno-missing-prototypes
+            - -Wno-missing-noreturn
+            - -Wno-sign-conversion
+            - -Wno-nonportable-include-path
+            - -Wno-reserved-id-macro
+            - -Wno-unused-macros
+            - -Wno-documentation-unknown-command
+            - -Wno-documentation
+            - -Wno-license-management
+            - -Wno-parentheses-equality
+          CPP:
+            - -xc++
+            - -std=c++11
+            - -fno-exceptions
+          ASM:
+            - -masm=auto
+          Link:
+            - --map
+            - --load_addr_map_info
+            - --xref
+            - --callgraph
+            - --symbols
+            - --info sizes
+            - --info totals
+            - --info unused
+            - --info veneers
+            - --strict
+            - --summary_stderr
+            - --info summarysizes
+  linker:
+    - script: ppiapp_Target_1.sct
+  groups:
+    - group: src
+      files:
+        - file: src/main.c
+        - file: src/stm32f10x_it.c
+        - file: src/system_stm32f10x.c
+        - file: src/SysTick.c
+        - file: src/port_a.asm
+        - file: src/sio.c
+    - group: fwlib
+      files:
+        - file: fwlib/src/misc.c
+        - file: fwlib/src/stm32f10x_dma.c
+        - file: fwlib/src/stm32f10x_exti.c
+        - file: fwlib/src/stm32f10x_gpio.c
+        - file: fwlib/src/stm32f10x_pwr.c
+        - file: fwlib/src/stm32f10x_rcc.c
+        - file: fwlib/src/stm32f10x_sdio.c
+        - file: fwlib/src/stm32f10x_tim.c
+        - file: fwlib/src/stm32f10x_usart.c
+        - file: fwlib/src/stm32f10x_flash.c
+    - group: core
+      files:
+        - file: core/core_cm3.c
+        - file: core/startup_stm32f10x_md.s
+    - group: fx1n
+      files:
+        - file: fx1n/fx1nhelper.c
+        - file: fx1n/fx1n.c
+        - file: fx1n/fx1nfnc.c
+        - file: fx1n/fx1niap.c
+        - file: fx1n/fx1nuart.c

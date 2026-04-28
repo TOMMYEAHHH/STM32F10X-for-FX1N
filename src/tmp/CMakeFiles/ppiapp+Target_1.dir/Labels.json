@@ -1,0 +1,52 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/CMakeFiles/ppiapp+Target_1"
+		},
+		{
+			"file" : "/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/CMakeFiles/ppiapp+Target_1.rule"
+		},
+		{
+			"file" : "/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/CMakeFiles/ppiapp+Target_1-complete.rule"
+		},
+		{
+			"file" : "/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-build.rule"
+		},
+		{
+			"file" : "/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-configure.rule"
+		},
+		{
+			"file" : "/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-database.rule"
+		},
+		{
+			"file" : "/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-download.rule"
+		},
+		{
+			"file" : "/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-executes.rule"
+		},
+		{
+			"file" : "/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-install.rule"
+		},
+		{
+			"file" : "/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-mkdir.rule"
+		},
+		{
+			"file" : "/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-patch.rule"
+		},
+		{
+			"file" : "/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-test.rule"
+		},
+		{
+			"file" : "/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/ppiapp+Target_1/src/ppiapp+Target_1-stamp/ppiapp+Target_1-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ppiapp+Target_1"
+		],
+		"name" : "ppiapp+Target_1"
+	}
+}

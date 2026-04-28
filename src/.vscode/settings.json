@@ -1,0 +1,7 @@
+{
+    "debug.hideSlowPreLaunchWarning": true,
+    "debug.showInStatusBar": "never",
+    "clangd.arguments": [
+        "--compile-commands-dir=/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/out/ppiapp/Target_1"
+    ]
+}

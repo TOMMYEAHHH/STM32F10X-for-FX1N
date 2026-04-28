@@ -1,0 +1,1 @@
+cmd='/Users/tommy/.vcpkg/artifacts/2139c4c6/tools.kitware.cmake/3.31.5/bin/cmake;-G;Ninja;-S;<SOURCE_DIR>;-B;<BINARY_DIR>;-DSOLUTION_ROOT=/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src;-DCMSIS_PACK_ROOT=/Users/tommy/.cache/arm/packs;-DCMSIS_COMPILER_ROOT=/Users/tommy/.vscode/extensions/arm.cmsis-csolution-1.66.0-darwin-arm64/tools/cmsis-toolbox/etc'

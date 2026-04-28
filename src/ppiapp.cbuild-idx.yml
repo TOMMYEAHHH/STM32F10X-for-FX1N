@@ -1,0 +1,18 @@
+build-idx:
+  generated-by: csolution version 2.13.0+p3-g40b6564e
+  csolution: ppiapp.csolution.yml
+  cbuild-run: out/ppiapp+Target_1.cbuild-run.yml
+  tmpdir: tmp
+  cprojects:
+    - cproject: ppiapp.cproject.yml
+  cbuilds:
+    - cbuild: out/ppiapp/Target_1/ppiapp+Target_1.cbuild.yml
+      project: ppiapp
+      configuration: +Target_1
+      messages:
+        warnings:
+          - file '/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/.cmsis/ppiapp+Target_1.dbgconf' not found; use --update-rte
+        info:
+          - ppiapp.cbuild-pack.yml - file generated successfully
+          - ppiapp+Target_1.cbuild-run.yml - file generated successfully
+          - ppiapp+Target_1.cbuild.yml - file generated successfully

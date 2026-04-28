@@ -1,0 +1,8 @@
+/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/1/CMakeFiles/database.dir
+/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/1/CMakeFiles/ppiapp+Target_1.dir
+/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/1/CMakeFiles/Group_src.dir
+/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/1/CMakeFiles/Group_fwlib.dir
+/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/1/CMakeFiles/Group_core.dir
+/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/1/CMakeFiles/Group_fx1n.dir
+/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/1/CMakeFiles/edit_cache.dir
+/Users/tommy/Documents/GitHub/STM32F10X-for-FX1N/src/tmp/1/CMakeFiles/rebuild_cache.dir
