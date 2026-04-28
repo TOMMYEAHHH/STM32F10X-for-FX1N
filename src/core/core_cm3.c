@@ -439,66 +439,38 @@ uint32_t __STREXW(uint32_t value, uint32_t *addr)
  *
  * Return the actual process stack pointer
  */
+
+/* =========================================================
+   ?? Arm Compiler 6 (LLVM) ????????????
+   ========================================================= */
+
+/* ?? __get_PSP */
 uint32_t __get_PSP(void) __attribute__( ( naked ) );
 uint32_t __get_PSP(void)
 {
-  uint32_t result=0;
-
-  __ASM volatile ("MRS %0, psp\n\t" 
-                  "MOV r0, %0 \n\t"
-                  "BX  lr     \n\t"  : "=r" (result) );
-  return(result);
+  __ASM volatile ("mrs r0, psp\n\tbx lr\n");
 }
 
-/**
- * @brief  Set the Process Stack Pointer
- *
- * @param  topOfProcStack  Process Stack Pointer
- *
- * Assign the value ProcessStackPointer to the MSP 
- * (process stack pointer) Cortex processor register
- */
+/* ?? __set_PSP */
 void __set_PSP(uint32_t topOfProcStack) __attribute__( ( naked ) );
 void __set_PSP(uint32_t topOfProcStack)
 {
-  __ASM volatile ("MSR psp, %0\n\t"
-                  "BX  lr     \n\t" : : "r" (topOfProcStack) );
+  __ASM volatile ("msr psp, r0\n\tbx lr\n");
 }
 
-/**
- * @brief  Return the Main Stack Pointer
- *
- * @return Main Stack Pointer
- *
- * Return the current value of the MSP (main stack pointer)
- * Cortex processor register
- */
+/* ?? __get_MSP */
 uint32_t __get_MSP(void) __attribute__( ( naked ) );
 uint32_t __get_MSP(void)
 {
-  uint32_t result=0;
-
-  __ASM volatile ("MRS %0, msp\n\t" 
-                  "MOV r0, %0 \n\t"
-                  "BX  lr     \n\t"  : "=r" (result) );
-  return(result);
+  __ASM volatile ("mrs r0, msp\n\tbx lr\n");
 }
 
-/**
- * @brief  Set the Main Stack Pointer
- *
- * @param  topOfMainStack  Main Stack Pointer
- *
- * Assign the value mainStackPointer to the MSP 
- * (main stack pointer) Cortex processor register
- */
+/* ?? __set_MSP */
 void __set_MSP(uint32_t topOfMainStack) __attribute__( ( naked ) );
 void __set_MSP(uint32_t topOfMainStack)
 {
-  __ASM volatile ("MSR msp, %0\n\t"
-                  "BX  lr     \n\t" : : "r" (topOfMainStack) );
+  __ASM volatile ("msr msp, r0\n\tbx lr\n");
 }
-
 /**
  * @brief  Return the Base Priority value
  *
