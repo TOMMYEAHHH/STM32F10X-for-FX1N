@@ -1,0 +1,41 @@
+# --- macOS 专属 ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+
+# --- Keil uVision (Windows 遗留) ---
+*.bak
+*.dep
+*.uvgui.*
+*.uvguix.*
+*.uvopt
+*.uvoptx
+Objects/
+Listings/
+ RTE/
+
+
+# --- Arm Keil Studio (VS Code 扩展) ---
+out/
+tmp/
+.vcpkg/
+# 如果你不希望上传 VS Code 的本地配置（断点、窗口布局）
+.vscode/cmake-kits.json
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/settings.json
+
+
+# --- 编译产物 ---
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.o
+*.d
+*.crf
+*.lnp
